@@ -6,21 +6,21 @@ The study proposes a novel approach to the prediction of news sentiment using hi
 
 ## Keywords: Stock Price Prediction, News Sentiment Analysis, Machine Learning, Efficient Market Hypothesis (EMH), Historical Stock Data, Feature Engineering, Anomaly Detection, Random Forests, Support Vector Machines (SVM), Long Short-Term Memory (LSTM) Networks
 
-## 📚 Table of Contents
+#### 📚 Table of Contents
 
-## Project Objectives
+#### Project Objectives
 
-## Theoretical Framework
+#### Theoretical Framework
 
-## Methodology
+#### Methodology
 
-## Repository Structure
+#### Repository Structure
 
-## Installation & Usage
+#### Installation & Usage
 
-## Results & Discussion
+#### Results & Discussion
 
-## References
+#### References
 
 ## 🎯 Objectives
 Developing a machine learning model that will be capable of forecasting major news events from past stock price information, thus proving the forward-looking nature of the market and countering the need for news sentiment analysis to predict stock prices.

@@ -84,6 +84,23 @@ Survivorship bias (limited delisted stocks).
 
 Overfitting risk during low-volatility regimes.
 
+## Team Description and Roles
+The project team consists of three members:
+#### Divine Okeke:
+– Project Management and coordination of the research design.
+– Design and implementation of machine learning models.
+– Support in data acquisition and preprocessing.
+– Perform a literature review and contribute to project documentation and analysis.
+#### Sara Tadese:
+– Selection and fine-tuning of appropriate algorithms.
+– Perform feature engineering.
+– Handle model training, validation, and performance evaluation.
+– Perform a literature review and contribute to project documentation and analysis.
+#### Joshua Udobang:
+– Oversee data acquisition and preprocessing.
+– Align and manage historical stock price data with news sentiment information.
+– Perform a literature review and contribute to project documentation and analysis.
+
 ## 📖 References
 1) Al-Thani, H., Hassen, H., Al-Maadeed, S. A., Fetais, N., and Jaoua, A. Unsupervised technique for anomaly detection in qatar stock market. 2018 International Conference on Computer and Applications (ICCA), pp. 116-9, 2018. URL https://api.semanticscholar.org/CorpusID:52285140.
 2) Cakra, Y. E. and Trisedya, B. D. Stock price prediction using linear regression based on sentiment analysis. 2015 International Conference on Advanced Computer Science and Information Systems (ICACSIS), pp. 147–154, 2015. URL https://api.semanticscholar.org/CorpusID:18389759.

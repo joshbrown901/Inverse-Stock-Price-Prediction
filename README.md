@@ -4,7 +4,7 @@ The study proposes a novel approach to the prediction of news sentiment using hi
 ## 📝 Abstract
 The study proposes a novel approach to the prediction of news sentiment using historical stock price data using machine learning techniques. Traditionally, financial prediction has relied on news sentiment analysis to predict stock price movements, based on the premise that external information drives market behavior. In contrast, this approach presumes that stock prices, which rapidly incorporate and reflect a broad range of market information and investor anticipation, could be effective predictors of news sentiment that will be evident in the future. The proposed method aims to identify whether market prices embody key information that is later evident in news reports. Theoretical implications and initial analysis show that the information contained in stock prices can provide key insights into the future news sentiment, challenging the use of traditional sentiment-based prediction models.
 
-## Keywords: Stock Price Prediction, News Sentiment Analysis, Machine Learning, Efficient Market Hypothesis (EMH), Historical Stock Data, Feature Engineering, Anomaly Detection, Random Forests, Support Vector Machines (SVM), Long Short-Term Memory (LSTM) Networks
+##### Keywords: Stock Price Prediction, News Sentiment Analysis, Machine Learning, Efficient Market Hypothesis (EMH), Historical Stock Data, Feature Engineering, Anomaly Detection, Random Forests, Support Vector Machines (SVM), Long Short-Term Memory (LSTM) Networks
 
 #### 📚 Table of Contents
 

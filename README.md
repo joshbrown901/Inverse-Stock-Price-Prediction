@@ -85,11 +85,13 @@ Survivorship bias (limited delisted stocks).
 Overfitting risk during low-volatility regimes.
 
 ## 📖 References
-Hochreiter & Schmidhuber (1997). LSTM. Neural Computation.
-
-Vaswani et al. (2017). Attention Is All You Need. NeurIPS.
-
-Engle (2001). GARCH Models. Nobel Prize Lecture.
+1) Al-Thani, H., Hassen, H., Al-Maadeed, S. A., Fetais, N., and Jaoua, A. Unsupervised technique for anomaly detection in qatar stock market. 2018 International Conference on Computer and Applications (ICCA), pp. 116-9, 2018. URL https://api.semanticscholar.org/CorpusID:52285140.
+2) Cakra, Y. E. and Trisedya, B. D. Stock price prediction using linear regression based on sentiment analysis. 2015 International Conference on Advanced Computer Science and Information Systems (ICACSIS), pp. 147–154, 2015. URL https://api.semanticscholar.org/CorpusID:18389759.
+3) Golmohammadi, K. and Zaiane, O. R. Time series contextual anomaly detection for detecting market manipulation in stock market. 2015 IEEE International Conference on Data Science and Advanced Analytics (DSAA), pp. 1–10, 2015. URL https://api.semanticscholar.org/CorpusID:206610368.
+4) Gupta, R. and Chen, M. Sentiment analysis for stock price prediction. In 2020 IEEE Conference on Multimedia Information Processing and Retrieval (MIPR), pp. 213–218, 2020. doi:10.1109/MIPR49039.2020.00051.
+5) Kader, L. A. Anomaly detection in financial transaction time series data. Master’s thesis, Uppsala University, Uppsala, Sweden, 2023. Master’s Thesis.
+6) Mohan, S., Mullapudi, S., Sammeta, S., Vijayvergia, P., and Anastasiu, D. Stock price prediction using news sentiment analysis. 2019 IEEE Fifth International Conference on Big Data Computing Service and Applications (BigDataService), pp. 205–208, 2019. URL https://api.semanticscholar.org/CorpusID:203566840.
+7) Pagolu, V. S., Challa, K., Panda, G., and Majhi, B. Sentiment analysis of twitter data for predicting stock market movements. 2016 International Conference on Signal Processing, Communication, Power and Embedded System (SCOPES), pp. 1345–1350, 2016. URL https://api.semanticscholar.org/CorpusID:9059664.
 
 
 

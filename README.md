@@ -32,25 +32,6 @@ The VADER (Valence Aware Dictionary and sEntiment Reasoner) model was employed t
 ## 🔬 Methodology
 The news data was collected by scraping 200 pages of stock-related articles from Business Insider using Python libraries like requests and BeautifulSoup to extract headlines and their relative publication dates. Simultaneously, historical stock data for Infosys (INFY) over a 10-year period with daily intervals was retrieved using the yfinance library, ensuring alignment between market events and corresponding news sentiment. For consistency, the relative dates (e.g., "2d" or "5h" ago) in the news dataset were converted into absolute dates formatted as YYYY-MM-DD, and the news and stock datasets were merged on the date field to align news sentiment with specific stock price movements. Additional preprocessing included standardizing numerical features and engineering target variables, with one target variable derived from sentiment analysis—labeling positive sentiment as 1 if it exceeded negative sentiment, otherwise 0—and another representing stock price increases by comparing consecutive closing prices. Sentiment analysis was performed using the VADER (Valence Aware Dictionary and sEntiment Reasoner) model, which computed negative, neutral, and positive sentiment scores for each headline; these scores were appended to the merged dataset to form the basis for predicting the influence of news sentiment on stock price movements.
 
-## 🗂 Repository Structure
-bash
-Copy
-MSc-Inverse-Stock-Prediction/  
-├── data/                    # Raw + processed datasets (CSV/Feather)  
-│   ├── raw/                 # Yahoo Finance, FRED exports  
-│   └── processed/           # Feature-engineered datasets  
-├── notebooks/               # Jupyter notebooks  
-│   ├── 1_EDA.ipynb          # Exploratory Data Analysis  
-│   ├── 2_Feature_Engineering.ipynb  
-│   └── 3_Model_Training.ipynb  
-├── src/                     # Python modules  
-│   ├── data_loader.py       # Data pipeline  
-│   ├── models.py            # LSTM/GRU/Transformer classes  
-│   └── evaluation.py        # Backtesting + metrics  
-├── configs/                 # YAML files for model configs  
-├── results/                 # Figures, tables, LaTeX-ready outputs  
-├── thesis/                  # Dissertation (PDF/Latex)  
-└── requirements.txt         # Conda/Pip dependencies  
 ### ⚙️ Installation & Usage
 ## 1. Clone Repository
 bash
@@ -77,12 +58,14 @@ Macroeconomic features (VIX, CPI) improved recall during crises by ~15%.
 False positives remained high (~20%) due to market noise (see Limitations).
 
 ## Visualization
-Precision-Recall Curve
+![image](https://github.com/user-attachments/assets/0022473c-2cad-4b89-bbec-1c9b5b93631e)
 
-## Limitations
-Survivorship bias (limited delisted stocks).
+![image](https://github.com/user-attachments/assets/4b1f7147-60a0-404e-8aad-4d7bb271f04e)
 
-Overfitting risk during low-volatility regimes.
+
+
+
+
 
 ## Team Description and Roles
 The project team consists of three members:

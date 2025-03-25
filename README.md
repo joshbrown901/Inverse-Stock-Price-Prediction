@@ -32,7 +32,7 @@ The news data was collected by scraping 200 pages of stock-related articles from
 ## 1. Clone Repository
 bash
 Copy
-git clone https://github.com/yourusername/MSc-Inverse-Stock-Prediction.git  
+git clone https://github.com/joshbrown901/MSc-Inverse-Stock-Prediction.git  
 cd MSc-Inverse-Stock-Prediction  
 
 ## Visualization

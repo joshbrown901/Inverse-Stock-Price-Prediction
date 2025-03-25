@@ -14,11 +14,7 @@ The study proposes a novel approach to the prediction of news sentiment using hi
 
 #### Methodology
 
-#### Repository Structure
-
 #### Installation & Usage
-
-#### Results & Discussion
 
 #### References
 
@@ -38,34 +34,19 @@ bash
 Copy
 git clone https://github.com/yourusername/MSc-Inverse-Stock-Prediction.git  
 cd MSc-Inverse-Stock-Prediction  
-## 2. Set Up Environment
-bash
-Copy
-conda create -n stock_pred python=3.10  
-conda activate stock_pred  
-pip install -r requirements.txt  
-## 3. Run Pipeline
-bash
-Copy
-python src/data_loader.py --tickers AAPL MSFT --start 2015-01-01  
-python src/models.py --model transformer --epochs 100  
-## 📊 Results & Discussion
-Key Findings
-Transformer outperformed LSTM/GRU with 88% precision in predicting 1-week downturns.
-
-Macroeconomic features (VIX, CPI) improved recall during crises by ~15%.
-
-False positives remained high (~20%) due to market noise (see Limitations).
 
 ## Visualization
 ![image](https://github.com/user-attachments/assets/0022473c-2cad-4b89-bbec-1c9b5b93631e)
 
 ![image](https://github.com/user-attachments/assets/4b1f7147-60a0-404e-8aad-4d7bb271f04e)
 
+![image](https://github.com/user-attachments/assets/4a1201a1-56d3-4242-b545-6ab726bff3bc)
 
+![image](https://github.com/user-attachments/assets/e09b0661-79e3-422a-8a89-2470745d00cd)
 
+![image](https://github.com/user-attachments/assets/2a2c14ca-f9c8-448c-a8f2-ac6a19a87109)
 
-
+![image](https://github.com/user-attachments/assets/c4ac0f93-d093-413e-9a66-5a701d11e95e)
 
 ## Team Description and Roles
 The project team consists of three members:

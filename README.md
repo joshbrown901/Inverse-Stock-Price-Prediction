@@ -1,41 +1,27 @@
 # Inverse-Stock-Price-Prediction
-The study proposes a novel approach to the prediction of news sentiment using historical stock price data using machine learning techniques. Traditionally, financial prediction has relied on news sentiment analysis to predict stock price movements, based on the premise that external information drives market behavior.
 
-## 📝 Abstract
-This study proposes a novel inverse approach to predicting news sentiment using historical stock price data, challenging traditional models that rely on sentiment analysis to forecast market movements. We hypothesize that stock prices, which rapidly incorporate and reflect a broad range of market information and investor anticipation, may anticipate future news sentiment. By training machine learning models on 12 years of Infosys (INFY) stock data and aligned Business Insider headlines, we evaluate whether price trends encode signals later reflected in news.Results demonstrate that stock data effectively predicts sentiment, with a Random Forest classifier (re-sampled by Random Oversampling) achieving superior performance: 0.864 ROC-AUC, 81.5% accuracy, and 82.5% F1-score. Class imbalance mitigation significantly improved minority class(“negative sentiment”) recall from 50% to 75% in XGBoost, while Neural Networks and Gradient Boosting lagged (67–68% accuracy). Feature importance analysis revealed that trading volume is more important than any other feature, which is likely to prove the hypotheses of insider trading activity. These findings suggest market prices encapsulate forward-looking insights, offering a viable alternative to sentiment-driven prediction
-paradigms.
 
-##### Keywords: Stock Price Prediction, News Sentiment Analysis, Machine Learning, Efficient Market Hypothesis (EMH), Historical Stock Data, Feature Engineering, Anomaly Detection, Random Forests, Logistic regression, CatBoots, VADER 
+## 📌 Project Overview
+Predicting market sentiment from financial news articles using stock price movements as ground truth, with specialized handling for class imbalance in financial datasets.
 
-#### 📚 Table of Contents
+## 🛠 Key Features
+- **Advanced Sampling Techniques**  
+  SMOTE | RandomOver/UnderSampler | TomekLinks | SMOTETomek
+- **Machine Learning Models**  
+  Random Forest | XGBoost | CatBoost | Neural Networks
+- **Hyperparameter Optimization**  
+  Bayesian Optimization | Grid Search
+- **Feature Importance Analysis**  
+  Gini Importance | Permutation Importance
 
-#### Project Objectives
 
-#### Theoretical Framework
-
-#### Methodology
-
-#### Installation & Usage
-
-#### References
-
-## 🎯 Objectives
-Developing a machine learning model that will be capable of forecasting major news events from past stock price information, thus proving the forward-looking nature of the market and countering the need for news sentiment analysis to predict stock prices.
-
-## 📖 Theoretical Framework
-The stock price can be used to predict the news, which proves the efficient market hypothesis and questions the need to analyze the news along with market data, since market data already reflect what can be found in the news. This will reduce the reliance on news sentiment analysis. For consistency, the relative dates (e.g., “2d” or “5h” ago) in the news dataset were converted into absolute dates (formatted as YYYY-MM-DD). The news and stock datasets were then merged on the date field, enabling the alignment of news sentiment with specific stock price movements. Additional preprocessing included standardizing numerical features and engineering target variables. One target variable was derived from sentiment analysis (positive sentiment is labeled as 1 if it exceeds negative sentiment, otherwise 0), and another represented the stock price increase by comparing the closing price of consecutive trading days.
-The VADER (Valence Aware Dictionary and sEntiment Reasoner) model was employed to perform sentiment analysis on the news headlines. For each headline, sentiment scores for negative, neutral, and positive sentiments were computed. These scores were then appended to the merged dataset, forming the basis for predicting the influence of news sentiment on stock price movements.
-
-## 🔬 Methodology
-The news data was collected by scraping 200 pages of stock-related articles from Business Insider using Python libraries like requests and BeautifulSoup to extract headlines and their relative publication dates. Simultaneously, historical stock data for Infosys (INFY) over a 10-year period with daily intervals was retrieved using the yfinance library, ensuring alignment between market events and corresponding news sentiment. For consistency, the relative dates (e.g., "2d" or "5h" ago) in the news dataset were converted into absolute dates formatted as YYYY-MM-DD, and the news and stock datasets were merged on the date field to align news sentiment with specific stock price movements. Additional preprocessing included standardizing numerical features and engineering target variables, with one target variable derived from sentiment analysis—labeling positive sentiment as 1 if it exceeded negative sentiment, otherwise 0—and another representing stock price increases by comparing consecutive closing prices. Sentiment analysis was performed using the VADER (Valence Aware Dictionary and sEntiment Reasoner) model, which computed negative, neutral, and positive sentiment scores for each headline; these scores were appended to the merged dataset to form the basis for predicting the influence of news sentiment on stock price movements.
 
 ### ⚙️ Installation & Usage
-## 1. Clone Repository
-bash
-Copy
-git clone https://github.com/joshbrown901/MSc-Inverse-Stock-Prediction.git  
-cd MSc-Inverse-Stock-Prediction  
-
+Packages to be installed
+!pip install beautifulsoup4 requests pandas
+!pip install vaderSentiment
+!pip install catboost
+NB: After installing catboost, it is necessary to restart the runtime
 ## Visualization
 ![image](https://github.com/user-attachments/assets/0022473c-2cad-4b89-bbec-1c9b5b93631e)
 
